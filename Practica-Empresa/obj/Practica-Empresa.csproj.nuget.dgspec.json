@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan camilo\\Documents\\Practica-Empresa\\practica-empresa\\Practica-Empresa\\Practica-Empresa.csproj": {}
+    "c:\\Users\\Juan camilo\\Documents\\Practica-Empresa\\practica-empresa\\Practica-Empresa\\Practica-Empresa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan camilo\\Documents\\Practica-Empresa\\practica-empresa\\Practica-Empresa\\Practica-Empresa.csproj": {
+    "c:\\Users\\Juan camilo\\Documents\\Practica-Empresa\\practica-empresa\\Practica-Empresa\\Practica-Empresa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan camilo\\Documents\\Practica-Empresa\\practica-empresa\\Practica-Empresa\\Practica-Empresa.csproj",
+        "projectUniqueName": "c:\\Users\\Juan camilo\\Documents\\Practica-Empresa\\practica-empresa\\Practica-Empresa\\Practica-Empresa.csproj",
         "projectName": "Practica-Empresa",
-        "projectPath": "C:\\Users\\Juan camilo\\Documents\\Practica-Empresa\\practica-empresa\\Practica-Empresa\\Practica-Empresa.csproj",
+        "projectPath": "c:\\Users\\Juan camilo\\Documents\\Practica-Empresa\\practica-empresa\\Practica-Empresa\\Practica-Empresa.csproj",
         "packagesPath": "C:\\Users\\Juan camilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan camilo\\Documents\\Practica-Empresa\\practica-empresa\\Practica-Empresa\\obj\\",
+        "outputPath": "c:\\Users\\Juan camilo\\Documents\\Practica-Empresa\\practica-empresa\\Practica-Empresa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
