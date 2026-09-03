@@ -1,4 +1,6 @@
-﻿public class Calculadora
+﻿using Practica_Empresa;
+
+public class Calculadora
 {
     public int Sumar(int a,int b)
     {
@@ -12,6 +14,9 @@ public class Program
         var calculo =new Calculadora();
 
         int suma = calculo.Sumar(10,10);
-        Console.WriteLine(suma);       
+        Console.WriteLine(suma);     
+
+        var tarea = new Tarea();
+        
     }    
 }
