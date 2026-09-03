@@ -7,17 +7,17 @@ namespace Practica_Empresa
     public class Tarea
     {
         public int Id { get; set; }
+        private int _id = 1; 
         public string Titulo { get; set; }
 
         public string Descripcion { get; set; }
 
 
-        public void registrarTarea(int id, string titulo, string descripcion)
+        public void registrarTarea( string titulo, string descripcion)
         {
                 List<Tarea> lista = new List<Tarea>();
                 var tareas = new Tarea
                 {
-                    Id = id,
                     Titulo = titulo,
                     Descripcion = descripcion
                 };
@@ -37,8 +37,8 @@ namespace Practica_Empresa
                 else
                 {
                     lista.Add(tareas);
-                    int contador = 1;
-                    tareas.Id = contador++;
+                    
+                    tareas.Id=_id++;
                     Console.WriteLine($"Se agrego una tarea con el titulo {tareas.Titulo} y el Id: {tareas.Id}.");
                 }
 

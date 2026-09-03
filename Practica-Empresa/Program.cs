@@ -17,6 +17,9 @@ public class Program
         Console.WriteLine(suma);     
 
         var tarea = new Tarea();
-        
+
+        tarea.registrarTarea("Registrar tarea","como usuario quiero poder registrar una tarea.");
+        tarea.registrarTarea("Actualizar una tarea", "como usuario quiero poder Actualizar una tarea.");
+        tarea.registrarTarea("Eliminar una tarea", "como usuario quiero poder eliminar una tarea despues que haya finalizado.");
     }    
 }
